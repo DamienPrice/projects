@@ -9,7 +9,7 @@ Check each project directory's README for details.
 
 
 ---
-#### Please check out my LinkedIn or website for more information
+#### For more information
 www.linkedin.com/in/damienrprice
 
 https://damienprice.github.io/
