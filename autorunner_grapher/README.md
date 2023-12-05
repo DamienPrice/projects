@@ -1,8 +1,11 @@
 # Autorun EoS Code and Grapher
-This repo has two codes. One that autoruns another code many times over depending on the ranges of input values required by the user, and the other that allows the user to graph in various ways the results of the autorun code. This readme includes
+This repo has two codes. One that autoruns another code many times over depending on the ranges of input values required by the user and in parallel if requested by user. The other code allows the user to graph in various ways the results of the autorun code. 
+
+This readme includes
 1. [Why These Codes Matter and Results](#why-these-codes-matter-and-results)
 2. [Autorunner Information](#autorunner)
 3. [Grapher Information](#grapher)
+4. [Additional Info](#additional-info)
 
 
 ## Why These Codes Matter and Results
@@ -28,13 +31,13 @@ This code generates EoS outputs for all combinations of parameters requested. Al
 #### General Procedure
 1. from the all_order_eos directory, copy and paste the desired EoS.cpp version into the EoS_1/src/ directory. These different versions are for different orders of the taylor expansion. Rename the pasted .ccp file to EoS.cpp. Once that is complete, from the EoS_1 directory run make.
 *this step only needs to be done once if you plan on reusing the same version of EoS.cpp.
-*if you have already run auto_eos with a different order coefficient and have changed it, you must delete all the eos in EoS_others. If not auto_EoS will run with older versions. Just input how many EoS you want again in step 3.
+*if you have already run autoRunner with a different order coefficient and have changed it, you must delete all the eos in EoS_others. If not autoRunner will run with older versions. Just input how many EoS you want again in step 3.
 
 2. Ensure that the Lattice_Data file in the main directory is the correct one.
 
-3. run auto_EoS.ipynb and complete the prompts.
+3. run autoRunner.ipynb and complete the prompts.
 
-4. auto_EoS will then generate all material requested in the fashion requested. All final outputs (Files_...) in all /output directories will be moved to the main_output_dir. 
+4. autoRunner will then generate all material requested in the fashion requested. All final outputs (Files_...) in all /output directories will be moved to the main_output_dir. 
 
 
 #### Notes
@@ -53,9 +56,9 @@ This code generates grids of plots of the chis_ files for the y and x axis param
 
 1. ensure that main_output_dir has the data you want to plot
 
-2. run 1st cell in 2d_plotter.ipynb and complete prompts. This creates the lists of what you want to pull from main_output_dir.
+2. run 1st cell in grapher.ipynb and complete prompts. This creates the lists of what you want to pull from main_output_dir.
 
-3. run 2nd cell in 2d_plotter.ipynb. This does the plotting. 
+3. run 2nd cell in grapher.ipynb. This does the plotting. 
 
 #### Notes
 Both 1st and 2nd cells can be combined into one cell and run together (can also put into .py if desired). It is split for convenience if you want to make adjustments to x and y ranges for each coef plot. If so simply make changes in y_ranges_list and x_ranges_list.
@@ -63,3 +66,9 @@ Both 1st and 2nd cells can be combined into one cell and run together (can also 
 Further modifications to the figure and plots can be made in either the section named "# make the plots..." or in the plotter() function.
 
 [Back to Top](#autorun-eos-code-and-grapher)
+
+## Additional Info
+As I don't have the right to freely share the EoS code, I have omitted them from this repo. If you like access to these files, please contact me and we can discuss this further.
+
+[Back to Top](#autorun-eos-code-and-grapher)
+
