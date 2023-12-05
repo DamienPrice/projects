@@ -5,7 +5,11 @@ I'm currently in the process of uploading past projects. More projects are to up
 ## Projects
 Check each project directory's README for details.
 - Ideal HRG Model Pressures
-- Autorun Grapher
+    - Concepts: Computational Mathematics, Data Handling, Calculus, Vertorization, Scalability, Large Datasets
+    - Tools: Python, SciPy, NumPy, Jupyter Notebook
+- Autorunner and Grapher
+    - Concepts: Data Visualization, Data Management, Large Datasets, Parallel Processing
+    - Tools: Python, Matplotlib, os, C/C++
 
 
 ---
