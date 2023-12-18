@@ -10,3 +10,10 @@ This is a dashboard exploring statistics in Congress age and length of service f
 - average service of all Congress over time.
 
 The dashboard allows the user to view different groups of Congress such as all of Congress or just the House or just the Republicans. 
+
+## Running Code
+
+I'm in the process of deploying this app on Render. In the meantime, you can run the app by
+- downloading the directory
+- running app.py
+- entering http://127.0.0.1:8050/ in your web browser
