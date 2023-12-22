@@ -13,7 +13,11 @@ The dashboard allows the user to view different groups of Congress such as all o
 
 ## Running Code
 
-I'm in the process of deploying this app on Render. In the meantime, you can run the app by
-- downloading the directory
-- running app.py
-- entering http://127.0.0.1:8050/ in your web browser
+There are two options
+
+1. Visit the app on Render: [Dashboard: Congress Age and Service](https://dash-congress-age-service.onrender.com/)
+
+2. Directly on your machine
+    - downloading the directory
+    - running app.py
+    - entering http://127.0.0.1:8050/ in your web browser
